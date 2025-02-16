@@ -169,3 +169,51 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# PyCharm
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# Логи
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Другие временные файлы
+*.swp
+*.tmp
+*.bak
+
+# Папки для тестов
+.test/
+
+# Настройки пользовательского интерфейса
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# Файлы конфигурации IDE
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/assetWizard/
+
+# Папка с кэшами
+.cache/
